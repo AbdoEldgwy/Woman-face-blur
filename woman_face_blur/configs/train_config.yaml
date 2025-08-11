@@ -1,0 +1,10 @@
+dataset_path: "data/celeba"   # where you put the CelebA images & attribute file
+save_path: "models/gender_resnet18.pth"
+epochs: 8
+batch_size: 64
+lr: 1e-4
+num_workers: 4
+input_size: 224
+
+defaults:
+  pretrained_backbone: true
