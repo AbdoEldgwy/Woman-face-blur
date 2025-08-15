@@ -19,6 +19,10 @@ class CelebAGenderDataset(Dataset):
 
         # Convert labels: 1 = male, -1 = female
         self.attr_df['Male'] = (self.attr_df['Male'] == 1).astype(int)
+        
+        img_dir = os.path.join(root_dir, 'img_align_celeba')
+        existing_files = set(os.listdir(img_dir))
+        self.attr_df = self.attr_df[self.attr_df['image_id'].isin(existing_files)]
 
         self.records = list(zip(self.attr_df['image_id'], self.attr_df['Male']))
 
