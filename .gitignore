@@ -1,2 +1,3 @@
-outputs/
 ML-Django-env
+.vscode
+__pycache__
