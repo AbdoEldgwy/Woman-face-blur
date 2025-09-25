@@ -4,14 +4,14 @@ import torch.optim as optim
 import torch.utils.data as DataLoader
 
 from datasets.dataset import CelebAGenderDataset
-from models.classifier import GenderClassifier
+from models.genderClassifier import GenderClassifierModel
 
 # Dataset
 train_data = CelebAGenderDataset('data/celeba')
 train_loader = DataLoader.DataLoader(train_data, batch_size=32, shuffle=True)
 
 # Model
-model = GenderClassifier(num_classes=2)
+model = GenderClassifierModel(num_classes=2)
 criterion = nn.CrossEntropyLoss()
 optimizer = optim.Adam(model.parameters(), lr=0.001)
 
