@@ -86,7 +86,6 @@ original | blurred
 
 ## References
 - [CelebA Dataset](https://www.kaggle.com/jessicali9530/celeba-dataset)
-- [YOLOv8](https://github.com/ultralytics/yolov8)
 - [MobileNetV3](https://arxiv.org/abs/1905.02244)
 - [PyTorch](https://pytorch.org/)
 
