@@ -1,7 +1,0 @@
-ML-Django-env
-.vscode
-__pycache__
-outputs
-*.pth
-*.pt
-*.mp4

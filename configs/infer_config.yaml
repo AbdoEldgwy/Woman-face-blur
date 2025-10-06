@@ -1,0 +1,10 @@
+# inference settings
+device: "cuda"        
+detector_weights: "yolov8n.pt"  # ultralytics model (COCO pretrained)
+classifier_weights: "models/gender_resnet18.pth"  # path where you will save/load classifier
+conf_threshold: 0.3
+iou_threshold: 0.5
+face_min_conf: 0.90       # min prob for MTCNN face detection inside person crop
+blur_method: "gaussian" # gaussian | pixelate
+blur_ksize: 51           # for gaussian blur (odd integer)
+fallback_classify_person: false  # if no face found, try classify whole person crop

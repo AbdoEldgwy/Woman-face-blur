@@ -1,0 +1,11 @@
+torch>=2.0.0
+torchvision>=0.15.0
+ultralytics>=8.0.0
+facenet-pytorch>=2.5.2
+opencv-python
+Pillow
+pyyaml
+tqdm
+albumentations
+numpy
+pytest
