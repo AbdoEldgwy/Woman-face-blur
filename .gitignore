@@ -1,4 +1,5 @@
 .vscode/
 __pycache__
-outputs/
+*.mp4
+gender_classifier.pth
 demo.ipynb
