@@ -3,7 +3,7 @@
 Woman Face Blur Pipeline is an end-to-end computer vision solution for automatically detecting and blurring female faces in images and videos. The project leverages deep learning models for person detection, face detection, and gender classification, making it suitable for privacy-preserving applications such as media anonymization, compliance with privacy laws, and ethical AI deployments.
 
 
-## 📌 Features
+## Features
 
 - **Person Detection:**
  Locates people in images/videos using YOLOv8 models.
@@ -18,7 +18,7 @@ Modular code, reproducible and scalable training, and clear experiment tracking.
 - **Kaggle-ready** – Run on kaggle free GPU resources without local hardware limitations.
 
 
-## 🏗 Project Structure
+## Project Structure
 
 ```bash
 woman_face_blur/
