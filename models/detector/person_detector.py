@@ -4,7 +4,7 @@
 from ultralytics import YOLO
 
 class PersonDetector:
-    def __init__(self, model_path="yolov8n.pt", conf_threshold=0.5):
+    def __init__(self, model_path="models/yolov8n.pt", conf_threshold=0.5):
         self.model = YOLO(model_path)
         self.conf_threshold = conf_threshold
 

@@ -3,7 +3,7 @@
 from ultralytics import YOLO
 
 class FaceDetector:
-    def __init__(self, model_path="yolov8n-face.pt", conf_threshold=0.5):
+    def __init__(self, model_path="models/yolov8n-face.pt", conf_threshold=0.5):
         self.model = YOLO(model_path)
         self.conf_threshold = conf_threshold
 
